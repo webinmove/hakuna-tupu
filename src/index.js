@@ -31,7 +31,7 @@ class HakunaTupu {
         if (obj[key] && typeof obj[key] === 'object' && !Array.isArray(obj[key])) {
           if (Object.keys(obj[key]).length !== 0) {
             const nestedObj = this.removeEmpty(obj[key]);
-            if (Object.keys(nestedObj).length) {
+            if (Object.keys(nestedObj).length || !this.options.removeEmptyObjects) {
               finalObj[key] = nestedObj;
             }
           }
