@@ -10,6 +10,11 @@ module.exports = {
   aaaaaaaaa: false,
   emptyObj: {},
   emptyArray: [],
+  emptyNestedObj: {
+    emptyNestedObj: {
+      a: ''
+    }
+  },
   array: [
     {
       a: '',

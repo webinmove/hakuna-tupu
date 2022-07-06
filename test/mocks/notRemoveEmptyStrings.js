@@ -6,6 +6,11 @@ module.exports = {
   aaaaaaa: 2,
   aaaaaaaa: true,
   aaaaaaaaa: false,
+  emptyNestedObj: {
+    emptyNestedObj: {
+      a: ''
+    }
+  },
   array: [
     {
       a: '',
