@@ -1,6 +1,6 @@
 {
   "name": "@webinmove/hakuna-tupu",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Util to remove empty string, undefined, null and empty arrays in nested objects and arrays",
   "main": "src/index.js",
   "types": "src/types.d.ts",
