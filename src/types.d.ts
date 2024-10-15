@@ -17,3 +17,5 @@ declare class HakunaTupu {
   
   removeEmpty<T extends object> (obj: T): T;
 }
+
+export = HakunaTupu
